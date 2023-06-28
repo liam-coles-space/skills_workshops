@@ -13,7 +13,13 @@ encrypt('b', 3) #=> '5'
 encrypt('abc', 3) #=> '456'
 encrypt('a cab', 3) #=> '43645'
 ```
-
+'''Python
+encrypt.letter_number_cipher('a',3) #=> 4
+encrypt.letter_number_cipher('a',10) #=> 11
+encrypt.letter_number_cipher('b',3) #=> 5
+encrypt.letter_number_cipher('abc',3) #=> 456
+encrypt.letter_number_cipher('a cab',3) #=> 43645
+'''
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
